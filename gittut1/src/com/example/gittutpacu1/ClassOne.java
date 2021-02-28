@@ -3,6 +3,7 @@ package com.example.gittutpacu1;
 public class ClassOne {
 	String clsname;
 	String clsid;
+	String clsnickname
 	public String getClsname() {
 		return clsname;
 	}
@@ -14,5 +15,8 @@ public class ClassOne {
 	}
 	public void setClsid(String clsid) {
 		this.clsid = clsid;
+	}
+	public void setClsnickname(String clsnickname) {
+		this.clsnickname = clsnickname;
 	}
 }
